@@ -283,7 +283,7 @@
                 display: "flex",
                 flexDirection: "column"
             },
-            innerHTML: '<span style="text-shadow: 1px 1px rgb(0 0 0 / 40%); font-size: 0.8em;">katt's Cheats<sup>v2.2</sup></span>'
+            innerHTML: '<span style="text-shadow: 1px 1px rgb(0 0 0 / 40%); font-size: 0.8em;">katt\x27s Cheats<sup>v2.2</sup></span>'
         }, l("a", {
             className: "bigButton",
             style: {
@@ -3259,7 +3259,7 @@
             enabled: !1,
             data: null,
             run: function() {
-                let e = ["°", "\xb9", "\xb2", "\xb3", "4", "5", "6", "7", "8", "?"],
+                let e = ["ï¿½", "\xb9", "\xb2", "\xb3", "4", "5", "6", "7", "8", "?"],
                     t = t => {
                         let a = "";
                         for (; t > 0;)
@@ -7090,7 +7090,7 @@
                     for (; 100 <= n; s++)
                         n = Math.floor(n / 10);
                     let l = "";
-                    var c = ["°", "\xb9", "\xb2", "\xb3", "4", "5", "6", "7", "8", "?"];
+                    var c = ["ï¿½", "\xb9", "\xb2", "\xb3", "4", "5", "6", "7", "8", "?"];
                     for (let d of (s + 1).toString().split(""))
                         l += c[Number(d)];
                     t = n / 10 + " \xd7 10" + l
